@@ -1,0 +1,16 @@
+{'task': 'glue-sst2', 'seed': '100', 'num_fewshot': 0, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.8922018348623854, 'F1': 0.8922018348623854}
+{'task': 'glue-sst2', 'seed': '100', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.9518348623853211, 'F1': 0.9517615261818584}
+{'task': 'glue-sst2', 'seed': '13', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.9610091743119266, 'F1': 0.9610040458565483}
+{'task': 'glue-sst2', 'seed': '21', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.9690366972477065, 'F1': 0.9690275323978272}
+{'task': 'glue-sst2', 'seed': '42', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.9552752293577982, 'F1': 0.955249275274593}
+{'task': 'glue-sst2', 'seed': '87', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.9552752293577982, 'F1': 0.9552746999835607}
+{'task': 'glue-sst2_random', 'seed': '100', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.908256880733945, 'F1': 0.9079037002223197}
+{'task': 'glue-sst2_random', 'seed': '13', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.6490825688073395, 'F1': 0.6087415540540541}
+{'task': 'glue-sst2_random', 'seed': '21', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.8555045871559633, 'F1': 0.8553554502369668}
+{'task': 'glue-sst2_random', 'seed': '42', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.9036697247706422, 'F1': 0.9036697247706422}
+{'task': 'glue-sst2_random', 'seed': '87', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.9403669724770642, 'F1': 0.9403657176525051}
+{'task': 'glue-sst2_permutated_labels', 'seed': '100', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.5745412844036697, 'F1': 0.529794788837001}
+{'task': 'glue-sst2_permutated_labels', 'seed': '13', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.3841743119266055, 'F1': 0.384134624869301}
+{'task': 'glue-sst2_permutated_labels', 'seed': '21', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.4724770642201835, 'F1': 0.36553731296067826}
+{'task': 'glue-sst2_permutated_labels', 'seed': '42', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.5275229357798165, 'F1': 0.4093811443338967}
+{'task': 'glue-sst2_permutated_labels', 'seed': '87', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.7305045871559633, 'F1': 0.7305013973368404}

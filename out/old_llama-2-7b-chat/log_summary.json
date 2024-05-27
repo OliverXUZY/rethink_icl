@@ -1,0 +1,6 @@
+{'task': 'glue-sst2', 'seed': '100', 'num_fewshot': 0, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.713302752293578, 'F1': 0.6952924074695293}
+{'task': 'glue-sst2', 'seed': '13', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.9529816513761468, 'F1': 0.9529815895410603}
+{'task': 'glue-sst2', 'seed': '21', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.9369266055045872, 'F1': 0.9368900035923746}
+{'task': 'glue-sst2', 'seed': '42', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.9518348623853211, 'F1': 0.9518338488731772}
+{'task': 'glue-sst2', 'seed': '87', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.9392201834862385, 'F1': 0.939191313947078}
+{'task': 'glue-sst2', 'seed': '100', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.944954128440367, 'F1': 0.9448703156364096}

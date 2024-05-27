@@ -1,0 +1,232 @@
+10/25/2023 14:04:23 - INFO - __main__ - Namespace(do_zeroshot=True, use_demonstrations=True, use_calibration=False, unseen_domain_only=False, log_file='out/llama-2-7b-chat/log_sst2_dem.txt', task=None, dataset='glue-sst2', k=16, seed='13,21,42,87,100', test_batch_size=8, global_step=None, use_random_english_words=False, out_dir='test/llama-2-7b-chat', split='test', is_null=False, method='direct', base_model_path='meta-llama/Llama-2-7b-chat-hf', num_gpus=2)
+10/25/2023 14:04:23 - INFO - __main__ - batch_size=8	max_length=1024	max_length_per_example=256
+10/25/2023 19:15:12 - INFO - __main__ - Namespace(do_zeroshot=True, use_demonstrations=True, use_calibration=False, unseen_domain_only=False, log_file='out/llama-2-7b-chat/log_sst2_dem.txt', task=None, dataset='glue-sst2', k=16, seed='13,21,42,87,100', test_batch_size=8, global_step=None, use_random_english_words=False, out_dir='test/llama-2-7b-chat', split='test', is_null=False, method='direct', base_model_path='meta-llama/Llama-2-7b-chat-hf', num_gpus=2)
+10/25/2023 19:15:12 - INFO - __main__ - batch_size=8	max_length=1024	max_length_per_example=256
+10/25/2023 19:51:00 - INFO - __main__ - Namespace(do_zeroshot=True, use_demonstrations=True, use_calibration=False, unseen_domain_only=False, log_file='out/llama-2-7b-chat/log_sst2_dem.txt', task=None, dataset='glue-sst2', k=16, seed='13,21,42,87,100', test_batch_size=8, global_step=None, use_random_english_words=False, out_dir='out/test/llama-2-7b-chat', split='test', is_null=False, method='direct', base_model_path='meta-llama/Llama-2-7b-chat-hf', num_gpus=2)
+10/25/2023 19:51:00 - INFO - __main__ - batch_size=8	max_length=1024	max_length_per_example=256
+10/25/2023 19:51:01 - INFO - __main__ - [Train] glue-sst2	16
+10/25/2023 19:51:01 - INFO - __main__ - [Dev] glue-sst2	872
+10/25/2023 19:51:01 - INFO - __main__ - direct on None (1 train, 1 dev)
+10/25/2023 19:51:02 - INFO - __main__ - Checking the first example...
+Input:
+<s> sentence: well worth revisiting as many times 
+The answer is positive. 
+
+
+sentence: feels like the work of someone who may indeed have finally aged past his prime ... and , perhaps more than he realizes , 
+The answer is negative. 
+
+
+sentence: undistinguished 
+The answer is negative. 
+
+
+sentence: feels more like a quickie tv special than a feature film 
+The answer is negative. 
+
+
+sentence: the cast ... keeps this pretty watchable , and casting mick jagger as director of the escort service was inspired . 
+The answer is positive. 
+
+
+sentence: what ( denis ) accomplishes in his chilling , unnerving film is a double portrait of two young women whose lives were as claustrophic , suffocating and chilly as the attics to which they were inevitably consigned . 
+The answer is positive. 
+
+
+sentence: hollywood trap 
+The answer is negative. 
+
+
+sentence: hip 
+The answer is positive. 
+
+
+sentence: close enough in spirit to its freewheeling trash-cinema roots to be a breath of fresh air . 
+The answer is positive. 
+
+
+sentence: sucking you in ... 
+The answer is positive. 
+
+
+sentence: is almost in a class with that of wilde himself . 
+The answer is positive. 
+
+
+sentence: its makers actually seem to understand what made allen 's romantic comedies so pertinent and enduring 
+The answer is positive. 
+
+
+sentence: the kind of obnoxious 
+The answer is negative. 
+
+
+sentence: i liked the original short story but this movie , even at an hour and twenty-some minutes , it 's too long and it goes nowhere . 
+The answer is negative. 
+
+
+sentence: you 're an agnostic carnivore 
+The answer is negative. 
+
+
+sentence: if you can swallow its absurdities and crudities lagaan really is enormously good fun . 
+The answer is positive. 
+
+
+sentence: it 's a charming and often affecting journey . 
+The answer is negative.<unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk>
+Output:
+
+The answer is negative.
+10/25/2023 20:57:06 - INFO - __main__ - Namespace(do_zeroshot=True, use_demonstrations=True, use_calibration=False, unseen_domain_only=False, log_file='out/llama-2-7b-chat/log_sst2_dem.txt', task=None, dataset='glue-sst2', k=16, seed='13,21,42,87,100', test_batch_size=8, global_step=None, use_random_english_words=False, out_dir='out/test/llama-2-7b-chat', split='test', is_null=False, method='direct', base_model_path='meta-llama/Llama-2-7b-chat-hf', num_gpus=2)
+10/25/2023 20:57:06 - INFO - __main__ - batch_size=8	max_length=1024	max_length_per_example=256
+10/25/2023 20:57:06 - INFO - __main__ - [Train] glue-sst2	16
+10/25/2023 20:57:06 - INFO - __main__ - [Dev] glue-sst2	872
+10/25/2023 20:57:06 - INFO - __main__ - direct on None (1 train, 1 dev)
+10/25/2023 20:57:07 - INFO - __main__ - Checking the first example...
+Input:
+<s> sentence: well worth revisiting as many times 
+The answer is positive. 
+
+
+sentence: feels like the work of someone who may indeed have finally aged past his prime ... and , perhaps more than he realizes , 
+The answer is negative. 
+
+
+sentence: undistinguished 
+The answer is negative. 
+
+
+sentence: feels more like a quickie tv special than a feature film 
+The answer is negative. 
+
+
+sentence: the cast ... keeps this pretty watchable , and casting mick jagger as director of the escort service was inspired . 
+The answer is positive. 
+
+
+sentence: what ( denis ) accomplishes in his chilling , unnerving film is a double portrait of two young women whose lives were as claustrophic , suffocating and chilly as the attics to which they were inevitably consigned . 
+The answer is positive. 
+
+
+sentence: hollywood trap 
+The answer is negative. 
+
+
+sentence: hip 
+The answer is positive. 
+
+
+sentence: close enough in spirit to its freewheeling trash-cinema roots to be a breath of fresh air . 
+The answer is positive. 
+
+
+sentence: sucking you in ... 
+The answer is positive. 
+
+
+sentence: is almost in a class with that of wilde himself . 
+The answer is positive. 
+
+
+sentence: its makers actually seem to understand what made allen 's romantic comedies so pertinent and enduring 
+The answer is positive. 
+
+
+sentence: the kind of obnoxious 
+The answer is negative. 
+
+
+sentence: i liked the original short story but this movie , even at an hour and twenty-some minutes , it 's too long and it goes nowhere . 
+The answer is negative. 
+
+
+sentence: you 're an agnostic carnivore 
+The answer is negative. 
+
+
+sentence: if you can swallow its absurdities and crudities lagaan really is enormously good fun . 
+The answer is positive. 
+
+
+sentence: it 's a charming and often affecting journey . 
+The answer is negative.<unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk>
+Output:
+
+The answer is negative.
+10/25/2023 20:59:08 - INFO - __main__ - Namespace(do_zeroshot=True, use_demonstrations=True, use_calibration=False, unseen_domain_only=False, log_file='out/llama-2-7b-chat/log_sst2_dem.txt', task=None, dataset='glue-sst2', k=16, seed='13,21,42,87,100', test_batch_size=8, global_step=None, use_random_english_words=False, out_dir='out/test/llama-2-7b-chat', split='test', is_null=False, method='direct', base_model_path='meta-llama/Llama-2-7b-chat-hf', num_gpus=2)
+10/25/2023 20:59:08 - INFO - __main__ - batch_size=8	max_length=1024	max_length_per_example=256
+10/25/2023 20:59:08 - INFO - __main__ - [Train] glue-sst2	16
+10/25/2023 20:59:08 - INFO - __main__ - [Dev] glue-sst2	872
+10/25/2023 20:59:08 - INFO - __main__ - direct on None (1 train, 1 dev)
+10/25/2023 20:59:08 - INFO - __main__ - Checking the first example...
+Input:
+<s> sentence: well worth revisiting as many times 
+The answer is positive. 
+
+
+sentence: feels like the work of someone who may indeed have finally aged past his prime ... and , perhaps more than he realizes , 
+The answer is negative. 
+
+
+sentence: undistinguished 
+The answer is negative. 
+
+
+sentence: feels more like a quickie tv special than a feature film 
+The answer is negative. 
+
+
+sentence: the cast ... keeps this pretty watchable , and casting mick jagger as director of the escort service was inspired . 
+The answer is positive. 
+
+
+sentence: what ( denis ) accomplishes in his chilling , unnerving film is a double portrait of two young women whose lives were as claustrophic , suffocating and chilly as the attics to which they were inevitably consigned . 
+The answer is positive. 
+
+
+sentence: hollywood trap 
+The answer is negative. 
+
+
+sentence: hip 
+The answer is positive. 
+
+
+sentence: close enough in spirit to its freewheeling trash-cinema roots to be a breath of fresh air . 
+The answer is positive. 
+
+
+sentence: sucking you in ... 
+The answer is positive. 
+
+
+sentence: is almost in a class with that of wilde himself . 
+The answer is positive. 
+
+
+sentence: its makers actually seem to understand what made allen 's romantic comedies so pertinent and enduring 
+The answer is positive. 
+
+
+sentence: the kind of obnoxious 
+The answer is negative. 
+
+
+sentence: i liked the original short story but this movie , even at an hour and twenty-some minutes , it 's too long and it goes nowhere . 
+The answer is negative. 
+
+
+sentence: you 're an agnostic carnivore 
+The answer is negative. 
+
+
+sentence: if you can swallow its absurdities and crudities lagaan really is enormously good fun . 
+The answer is positive. 
+
+
+sentence: it 's a charming and often affecting journey . 
+The answer is negative.<unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk>
+Output:
+
+The answer is negative.

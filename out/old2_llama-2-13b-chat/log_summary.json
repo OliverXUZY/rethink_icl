@@ -1,0 +1,6 @@
+{'task': 'glue-rte', 'seed': '100', 'num_fewshot': 0, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.5234657039711191, 'F1': 0.3436018957345971}
+{'task': 'glue-rte', 'seed': '100', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.7436823104693141, 'F1': 0.7301639569184332}
+{'task': 'glue-rte', 'seed': '13', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.7328519855595668, 'F1': 0.7140665104341033}
+{'task': 'glue-rte', 'seed': '21', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.7906137184115524, 'F1': 0.7882932742989669}
+{'task': 'glue-rte', 'seed': '42', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.7364620938628159, 'F1': 0.735344545514037}
+{'task': 'glue-rte', 'seed': '87', 'num_fewshot': 16, 'new_lines': True, 'split_name': 'test', 'test_batch_size': 8, 'accuracy': 0.779783393501805, 'F1': 0.7689425535697192}
